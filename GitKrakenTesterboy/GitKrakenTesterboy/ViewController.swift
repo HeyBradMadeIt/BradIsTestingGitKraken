@@ -18,5 +18,9 @@ class ViewController: UIViewController {
     func thisIsBradFunction() {
         print("Brad made a function")
     }
+    
+    func thisIsBoyFunction() {
+        print("Boy made a function")
+    }
 }
 
