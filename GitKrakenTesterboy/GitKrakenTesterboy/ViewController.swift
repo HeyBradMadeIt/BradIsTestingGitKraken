@@ -9,6 +9,8 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var brad = "Brad"
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -17,6 +19,10 @@ class ViewController: UIViewController {
     
     func thisIsBradFunction() {
         print("Brad made a function")
+        
+        if brad != "Brad made a function" {
+            brad += " made a function"
+        }
     }
 }
 
