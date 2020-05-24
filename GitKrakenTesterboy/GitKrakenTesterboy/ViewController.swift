@@ -8,8 +8,21 @@
 
 import UIKit
 
+enum Moods {
+    case happy
+    case sad
+    case mad
+    case nothing
+}
+
+struct Person {
+    var name: String
+    var mood: Moods
+}
+
 class ViewController: UIViewController {
     
+    var realPeople = [Person]()
     var brad = "Brad"
     var boy = "Boy"
 
@@ -18,20 +31,13 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    func thisIsBradFunction() {
-        print("Brad made a function")
-        
-        if brad != "Brad made a function" {
-            brad += " made a function"
-        }
+    func thisIsPersonFunction(_ person: Person) {
+        print("\(person.name) made a function")
     }
     
-    func thisIsBoyFunction() {
-        print("Boy made a function")
-        
-        if boy != "Boy made a function" {
-            boy += " made a function"
-        }
+    func makeMeReal(_ name: String) {
+        let person = Person(name: name, mood: .happy)
+        realPeople.append(person)
     }
 }
 
