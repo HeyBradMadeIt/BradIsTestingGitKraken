@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController {
     
     var brad = "Brad"
+    var boy = "Boy"
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,6 +28,10 @@ class ViewController: UIViewController {
     
     func thisIsBoyFunction() {
         print("Boy made a function")
+        
+        if boy != "Boy made a function" {
+            boy += " made a function"
+        }
     }
 }
 
