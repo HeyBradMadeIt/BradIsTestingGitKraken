@@ -16,6 +16,8 @@
 		C4C470A5247AF9E400649868 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4C470A3247AF9E400649868 /* LaunchScreen.storyboard */; };
 		C4C470B0247AF9E500649868 /* GitKrakenTesterboyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C470AF247AF9E500649868 /* GitKrakenTesterboyTests.swift */; };
 		C4C470BB247AF9E500649868 /* GitKrakenTesterboyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C470BA247AF9E500649868 /* GitKrakenTesterboyUITests.swift */; };
+		C4C470CA247B03A700649868 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C470C9247B03A700649868 /* Models.swift */; };
+		C4C470CD247B03E500649868 /* PersonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C470CC247B03E500649868 /* PersonController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		C4C470B6247AF9E500649868 /* GitKrakenTesterboyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitKrakenTesterboyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4C470BA247AF9E500649868 /* GitKrakenTesterboyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitKrakenTesterboyUITests.swift; sourceTree = "<group>"; };
 		C4C470BC247AF9E500649868 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4C470C9247B03A700649868 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		C4C470CC247B03E500649868 /* PersonController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 		C4C47094247AF9DF00649868 /* GitKrakenTesterboy */ = {
 			isa = PBXGroup;
 			children = (
+				C4C470CB247B03CE00649868 /* Controller */,
+				C4C470C8247B039300649868 /* Models */,
 				C4C47095247AF9DF00649868 /* AppDelegate.swift */,
 				C4C47097247AF9DF00649868 /* SceneDelegate.swift */,
 				C4C47099247AF9DF00649868 /* ViewController.swift */,
@@ -129,6 +135,22 @@
 				C4C470BC247AF9E500649868 /* Info.plist */,
 			);
 			path = GitKrakenTesterboyUITests;
+			sourceTree = "<group>";
+		};
+		C4C470C8247B039300649868 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C4C470C9247B03A700649868 /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C4C470CB247B03CE00649868 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C4C470CC247B03E500649868 /* PersonController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,6 +288,8 @@
 				C4C4709A247AF9DF00649868 /* ViewController.swift in Sources */,
 				C4C47096247AF9DF00649868 /* AppDelegate.swift in Sources */,
 				C4C47098247AF9DF00649868 /* SceneDelegate.swift in Sources */,
+				C4C470CD247B03E500649868 /* PersonController.swift in Sources */,
+				C4C470CA247B03A700649868 /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
